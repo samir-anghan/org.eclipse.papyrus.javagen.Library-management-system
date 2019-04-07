@@ -16,6 +16,9 @@ public class RegisteredUser {
 	protected String securityQuestion;
 	protected String answer;
 
+	BookFactory bookFactory = new BookFactory();
+	LoanedBook loanedBook = new LoanedBook();
+	
 	ArrayList<User> userList;
 	
 	public RegisteredUser(String username, int id, String firstName, String lastName, String password,

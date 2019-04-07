@@ -15,7 +15,6 @@ public class User extends RegisteredUser {
 		super(username, id, firstName, lastName, password, securityQuestion, answer);
 	}
 
-	public Penalty penalty = new Penalty();
 	private double penaltyDueAmount;
 
 	public ArrayList<Book> booksList;

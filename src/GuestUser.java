@@ -12,6 +12,7 @@ public class GuestUser {
 	public ArrayList<Book> booksList;
 	public ArrayList<User> userList;
 	
+	BookFactory bookFactory = new BookFactory();
 	
 	public void signUp() {
 		System.out.println(">>>>>>LOG: Signin up.");
